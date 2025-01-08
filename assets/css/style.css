@@ -9,6 +9,14 @@
 html {
   font-size: 62.5%;
 }
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
 /* =========================================================================== */
 a {
   text-decoration: none;
@@ -227,4 +235,233 @@ body {
 }
 .hero .stats {
   margin-top: 8px;
+}
+/* ====================================POPULAR========================= */
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+.popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  line-height: 1.67; /* 166.667% */
+}
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+}
+.popular .control-btn {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  height: 40px;
+  width: 40px;
+  color: var(--primary-color);
+}
+.popular .control-btn:hover {
+  color: white;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.popular .controls {
+  display: flex;
+  gap: 18px;
+}
+.courses-list {
+  display: flex;
+}
+.popular .course-list {
+  display: flex;
+  padding-top: 55px;
+  gap: 30px;
+}
+.popular .course-item {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.popular .info {
+  padding: 16px 22px 22px;
+}
+.popular .course-item .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular .course-item .head h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+}
+.popular .course-item .head span {
+  color: var(--primary-color);
+}
+.popular .course-item .thumb {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+  height: 278px;
+}
+.popular .course-item p {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.popular .course-item .foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-item .foot span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+}
+.course-item .btn-popular-coures {
+  border-radius: 25px;
+  width: 118px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.85; /* 185.714% */
+  border: none;
+  background-color: black;
+}
+.course-item .btn-popular-coures:hover {
+  background-color: var(--primary-color);
+}
+.feedback {
+  margin-top: 135px;
+  background-color: #2e2100;
+  padding: 96px 0;
+}
+.feedback .feedback-item {
+  display: flex;
+}
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+  object-fit: cover;
+}
+.info .member-name {
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+.info .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.info .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+}
+.feedback-item .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+.feedback .content {
+  width: 65.6%;
+  margin-left: auto;
+}
+.feedback-item blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54; /* 153.846% */
+}
+.feedback-item .dot.active {
+  background: var(--primary-color);
+}
+.learner .hehe {
+  display: flex;
+  margin-top: 165px;
+}
+.learner .bentrai {
+  display: flex;
+  gap: 30px;
+}
+.learner .bentrai .picture {
+  width: 270px;
+  height: 405px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  object-fit: cover;
+}
+.learner .bentrai .pic1 {
+  margin-top: 34px;
+}
+.learner .bentrai .pic2 {
+  margin-bottom: 33px;
+}
+.learner .benphai {
+  margin: 58px 0 251px 130px;
+}
+.learner .benphai h2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.learner .benphai p {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+  margin-top: 16px;
+}
+.learner .benphai .btn-learner {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: var(--primary-color);
+  border: none;
+}
+.take .takeboc {
+  display: flex;
+}
+.take .takeboc .taketrai h2 {
+  margin-top: 71px;
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.take .takeboc .taketrai p {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+  margin-top: 16px;
+}
+.take .takeboc .taketrai .btn-take {
+  width: 137px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: var(--primary-color);
+  border: none;
+  margin-top: 32px;
+}
+.take .takeboc .anhtake {
+  width: 470px;
+  height: 440px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: 130px;
 }
